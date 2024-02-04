@@ -1,0 +1,13 @@
+{# ./templates/user.html.twig #}
+    
+{% extends 'userModels.html.twig' %}
+
+ {% block title %} User {% endblock %}
+    
+ {% block body %}
+     {% embed "header.twig" %}
+     {% endembed %}
+     <main id="root"></main>
+     {% embed "footer.twig" %}
+     {% endembed %}
+ {% endblock %}

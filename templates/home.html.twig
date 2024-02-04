@@ -1,0 +1,13 @@
+{# ./templates/home.html.twig #}
+    
+{% extends 'featured.html.twig' %}
+    
+ {% block title %} Homepage {% endblock %}
+    
+ {% block body %}
+     {% embed "header.twig" %}
+     {% endembed %}
+     <main id="root"></main>
+     {% embed "footer.twig" %}
+     {% endembed %}
+ {% endblock %}
